@@ -1,0 +1,13 @@
+build
+node_modules
+yarn-error.log
+
+\.idea/
+\.DS_Store
+env/
+__pycache__
+celerybeat-schedule
+*\.pyc
+*\.sqlite3
+www/reports
+testrpc.sh
