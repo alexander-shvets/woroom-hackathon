@@ -6,8 +6,8 @@ import { default as Web3} from 'web3';
 import { default as contract } from 'truffle-contract'
 
 // Import our contract artifacts and turn them into usable abstractions.
-import woroomtoken_artifacts from '../../build/contracts/WoroomToken.json'
-import games_artifacts from '../../build/contracts/Games.json'
+import woroomtoken_artifacts from '../../dest/contracts/WoroomToken.json'
+import games_artifacts from '../../dest/contracts/Games.json'
 
 // WoroomToken is our usable abstraction, which we'll use through the code below.
 var WoroomToken = contract(woroomtoken_artifacts);
